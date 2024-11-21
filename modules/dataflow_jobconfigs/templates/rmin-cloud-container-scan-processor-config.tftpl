@@ -1,0 +1,9 @@
+{
+ 	"subscription": "projects/${project_id}/subscriptions/rmin-container-scan-topic-subscription-e-${name_suffix}",
+ 	"biqQueryLogTable": "rmin_operationaldata_bigquery_e_${name_suffix}.Container_Scan_Processor_Logs",
+    "redisPort": "6379",
+    "redisMaxTotalConnetions": "200",
+    "redisMaxIdleConnetions": "10",
+    "redisMinIdleConnetions": "5",  
+    "psgTopic": "projects/${project_id}/topics/rmin-psg-topic-e-${name_suffix}"
+}

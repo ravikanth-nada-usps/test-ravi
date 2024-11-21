@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "uri",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "decryptedPath",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "statusCode",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "latency",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "zip11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "source",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "errorMessage",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "timestamp",
+    "type": "TIMESTAMP"
+  }
+]

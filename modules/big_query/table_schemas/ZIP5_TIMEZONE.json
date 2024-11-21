@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "ZIP5",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TIMEZONE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "LAST_UPDT_DATETIME",
+    "type": "DATETIME"
+  }
+]

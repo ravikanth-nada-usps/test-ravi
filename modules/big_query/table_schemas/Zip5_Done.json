@@ -1,0 +1,22 @@
+[
+  {
+    "name": "STATUS",
+    "type": "STRING"
+  },
+  {
+    "name": "ZIP5",
+    "type": "STRING"
+  },
+  {
+    "name": "DELIVERY_DATE",
+    "type": "DATE"
+  },
+  {
+    "name": "TIME_STAMP",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "SOURCE",
+    "type": "STRING"
+  }
+]

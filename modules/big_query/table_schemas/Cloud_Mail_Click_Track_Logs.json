@@ -1,0 +1,37 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "CAMPAIGN_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "IMB",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DELIVERY_DATE",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "STATUS",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "START_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "END_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TIME_STAMP",
+    "type": "DATETIME"
+  }
+]

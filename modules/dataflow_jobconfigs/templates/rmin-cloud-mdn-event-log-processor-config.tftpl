@@ -1,0 +1,14 @@
+{  
+  "mdnEmailReadTable": "rmin_user.dn_email_read",
+  "mdnSurveyTrackTable": "rmin_user.mdn_survey_track",
+  "mdnDNEventLogging":"rmin_user.dn_event_logging_cloud",
+  "cloudSqlHostFullConnectionName": "${project_id}:us-central1:idc-${environment}-rmin-mail-delivery-notification-c",
+  "cloudSqlDbName": "rmin_mail_delivery_notification_db",
+  "cloudSqlPort": "5432",
+  "cloudSqlDbUserName": "${db_user}",
+  "cloudSqlHost": "${mdn_db_host_ip}",
+  "secretKeyName": "rmin-mail-delivery-notification-${db_user}-key-c",
+  "secretProjectId" : "${project_num}",
+  "secretVersionNumber": "${mdn_db_user_secret_ver_num}",
+  "checkDuplicateRecordToggle": true
+}

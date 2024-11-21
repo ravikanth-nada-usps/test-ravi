@@ -1,0 +1,8 @@
+syntax = "proto3";
+message ProtocolBuffer {
+  string physical_address_id = 1;
+  string zip11_new = 2;
+  string dn_opt_in_new = 3;
+  string digest_opt_in_new = 4;
+  string time_stamp = 5;
+}

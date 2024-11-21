@@ -1,0 +1,32 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "PIECE_TYPE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ZIP11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "BARCODE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ERROR_MESSAGE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TIME_STAMP",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DELIVERY_DATE",
+    "type": "DATE"
+  }
+]

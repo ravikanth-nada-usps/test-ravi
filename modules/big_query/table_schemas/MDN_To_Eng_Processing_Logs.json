@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "transaction_date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "file_name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "file_size",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "zip11_count",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "start_time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "end_time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "status",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "error_message",
+    "type": "STRING"
+  }
+]

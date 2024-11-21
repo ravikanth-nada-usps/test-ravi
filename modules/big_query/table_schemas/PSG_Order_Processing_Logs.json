@@ -1,0 +1,52 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "PSG_Order_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PSG_Order_Name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Start_Time",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "End_Time",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Status",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Zip11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Delivery_Date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PROCESS_IND",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PIECETYPE",
+    "type": "STRING"
+  }
+]

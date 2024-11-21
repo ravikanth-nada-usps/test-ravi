@@ -1,0 +1,11 @@
+syntax = "proto3";
+message ProtocolBuffer {
+  string uri = 1;
+  optional string decryptedPath = 2;
+  int32 statusCode = 3;
+  int32 latency = 4;
+  optional string zip11 = 5;
+  optional string source = 6;
+  optional string errorMessage = 7;
+  string timestamp = 8;
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "uri",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "endpoint",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "method",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "statusCode",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "latency",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "source",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "principalId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "errorMessage",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "timestamp",
+    "type": "TIMESTAMP"
+  }
+]

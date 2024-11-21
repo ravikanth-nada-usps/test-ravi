@@ -1,0 +1,37 @@
+[
+  {
+    "name": "status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "mics_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "delivery_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "subscriber_count",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "file_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "start_time",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "end_time",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+]

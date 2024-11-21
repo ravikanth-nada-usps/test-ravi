@@ -1,0 +1,27 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "uri",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "method",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "statusCode",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "latency",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "timestamp",
+    "type": "TIMESTAMP"
+  }
+]

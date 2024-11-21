@@ -1,0 +1,7 @@
+syntax = "proto3";
+message ProtocolBuffer {
+  string principalID = 1;
+  string zip11 = 2;
+  string optOutReason = 3;
+  string optOutTime = 4;
+}

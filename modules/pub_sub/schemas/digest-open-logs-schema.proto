@@ -1,0 +1,6 @@
+syntax = "proto3";
+message ProtocolBuffer {
+  string email_token = 1;
+  string delivery_date = 2;
+  string read_time = 3;
+}

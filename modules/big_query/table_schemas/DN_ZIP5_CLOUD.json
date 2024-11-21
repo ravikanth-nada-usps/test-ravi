@@ -1,0 +1,10 @@
+[
+  {
+    "name": "ZIP5",
+    "type": "STRING"
+  },
+  {
+    "name": "CREATE_DATE",
+    "type": "DATETIME"
+  }
+]

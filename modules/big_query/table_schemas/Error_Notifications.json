@@ -1,0 +1,22 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "jobName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "originalMessage",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "errorDetails",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "timestamp",
+    "type": "TIMESTAMP"
+  }
+]

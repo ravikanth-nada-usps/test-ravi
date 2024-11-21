@@ -1,0 +1,8 @@
+For updates to tables 
+bq update PROJECT_ID:DATASET.TABLE SCHEMA
+bq update mydataset.mytable /path/to/myschema.json
+
+
+For new table
+
+bq mk --table project_id:dataset.table /path/to/myschema.json

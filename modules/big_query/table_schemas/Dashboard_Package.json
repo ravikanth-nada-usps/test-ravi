@@ -1,0 +1,67 @@
+[
+  {
+      "mode": "NULLABLE",
+      "name": "ZIP11",
+      "type": "STRING"
+  },
+  {
+      "mode": "NULLABLE",
+      "name": "PTR_EVENT_TIMESTAMP",
+      "type": "INT64"
+  },
+  {
+      "mode": "NULLABLE",
+      "name": "OUTBOUND_IND",
+      "type": "STRING"
+  },
+  {
+      "mode": "NULLABLE",
+      "name": "SERVICE_TYPE_CODE",
+      "type": "STRING"
+  },
+  {
+      "mode": "NULLABLE",
+      "name": "DELIVERY_DATE",
+      "type": "DATE"
+  },
+  {
+      "mode": "NULLABLE",
+      "name": "HASH_CODE",
+      "type": "INT64"
+  },
+  {
+      "mode": "NULLABLE",
+      "name": "MAILER_ID",
+      "type": "STRING"
+  },
+  {
+      "mode": "NULLABLE",
+      "name": "SERIAL_NUMBER",
+      "type": "STRING"
+  },
+  {
+      "mode": "NULLABLE",
+      "name": "IMPB",
+      "type": "STRING"
+  },
+  {
+      "mode": "NULLABLE",
+      "name": "SHIPPER_NAME",
+      "type": "STRING"
+  },
+  {
+      "mode": "NULLABLE",
+      "name": "PIECE_TYPE",
+      "type": "STRING"
+  },
+  {
+      "mode": "NULLABLE",
+      "name": "TIME_STAMP",
+      "type": "TIMESTAMP"
+  },
+  {
+      "mode": "NULLABLE",
+      "name": "PACKAGE_TYPE",
+      "type": "STRING"
+  }
+]

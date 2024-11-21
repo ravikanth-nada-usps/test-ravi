@@ -1,0 +1,47 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "email_token",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "delivery_date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "campaign_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "mailpiece_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "imb",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "zip11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "click_source",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "principal_id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "click_time",
+    "type": "TIMESTAMP"
+  }
+]

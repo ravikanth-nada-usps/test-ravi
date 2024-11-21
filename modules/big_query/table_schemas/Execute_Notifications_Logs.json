@@ -1,0 +1,30 @@
+[
+  {
+    "name": "zip11",
+    "type": "STRING"
+  },
+  {
+    "name": "delivery_date",
+    "type": "STRING"
+  },
+  {
+    "name": "email_address",
+    "type": "STRING"
+  },
+  {
+    "name": "start_time",
+    "type": "DATETIME"
+  },
+  {
+    "name": "end_time",
+    "type": "DATETIME"
+  },
+  {
+    "name": "status",
+    "type": "STRING"
+  },
+  {
+    "name": "run_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

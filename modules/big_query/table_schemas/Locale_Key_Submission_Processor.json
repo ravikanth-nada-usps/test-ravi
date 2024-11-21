@@ -1,0 +1,37 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "SATURATION_JOB_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "LOCALE_KEY",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "NUM_ZIP11_ADDED",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "STATUS",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "START_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "END_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TIME_STAMP",
+    "type": "DATETIME"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "STATUS",
+    "type": "STRING"
+  },
+  {
+    "name": "ZIP11",
+    "type": "STRING"
+  },
+  {
+    "name": "TRACKINGNUMBER",
+    "type": "STRING"
+  },
+  {
+    "name": "START_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "name": "END_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "name": "TIME_STAMP",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "DELIVERY_DATE",
+    "type": "STRING"
+  },
+  {
+    "name": "ORIGINZIP11",
+    "type": "STRING"
+  },
+  {
+    "name": "STC",
+    "type": "STRING"
+  },
+  {
+    "name": "OUTBOUND_IND",
+    "type": "STRING"
+  },
+  {
+    "name": "PROCESS_IND",
+    "type": "STRING"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "zip5",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "delivery_date",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "start_time",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "end_time",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "status",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "run_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

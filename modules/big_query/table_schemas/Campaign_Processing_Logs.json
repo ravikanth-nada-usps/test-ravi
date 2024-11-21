@@ -1,0 +1,22 @@
+[
+  {
+    "name": "STATUS",
+    "type": "STRING"
+  },
+  {
+    "name": "ZIP_FILENAME",
+    "type": "STRING"
+  },
+  {
+    "name": "START_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "name": "END_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "name": "TIME_STAMP",
+    "type": "TIMESTAMP"
+  }
+]

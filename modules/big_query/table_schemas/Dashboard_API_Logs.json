@@ -1,0 +1,92 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "uri",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "endpoint",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "statusCode",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "latency",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "zip11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "deliveryDate",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "source",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "principalId",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "mailCampaigns",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "packageCampaigns",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "mailCount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "saturationCount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "inboundCount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "outboundCount",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "errorMessage",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "addedPackageCampaigns",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "addedPackageCount",
+    "type": "INTEGER"
+  }
+]

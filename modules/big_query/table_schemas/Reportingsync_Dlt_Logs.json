@@ -1,0 +1,38 @@
+[
+  {
+    "name": "zip5",
+    "type": "STRING"
+  },
+  {
+    "name": "zip11",
+    "type": "STRING"
+  },
+  {
+    "name": "delivery_date",
+    "type": "STRING"
+  },
+  {
+    "name": "emailToken",
+    "type": "STRING"
+  },
+  {
+    "name": "emailSentTime",
+    "type": "STRING"
+  },
+  {
+    "name": "start_time",
+    "type": "DATETIME"
+  },
+  {
+    "name": "failed_dltmessage",
+    "type": "STRING"
+  },
+  {
+    "name": "end_time",
+    "type": "DATETIME"
+  },
+  {
+    "name": "run_timestamp",
+    "type": "TIMESTAMP"
+  }
+]

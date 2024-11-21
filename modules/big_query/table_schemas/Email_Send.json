@@ -1,0 +1,57 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "App_Identifier",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Email_Token",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ZIP11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Email_Address",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Physical_Address_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Account_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Delivery_Date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Email_Sent_Time",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Status",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_stamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Latency",
+    "type": "INTEGER"
+  }
+]

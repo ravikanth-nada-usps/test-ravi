@@ -1,0 +1,3 @@
+1. GCP: Bigquery: Remove existing column or Change to the column name causes the entire table to be re-created using terraform 
+2. Bigquery: must first change delete_protection to false first with no changes then can add change 
+

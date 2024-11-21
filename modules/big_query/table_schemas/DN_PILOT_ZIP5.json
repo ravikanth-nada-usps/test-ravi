@@ -1,0 +1,14 @@
+[
+  {
+    "name": "DN_PILOT_ZIP5_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "ZIP5",
+    "type": "STRING"
+  },
+  {
+    "name": "TIME_CREATED",
+    "type": "DATETIME"
+  }
+]

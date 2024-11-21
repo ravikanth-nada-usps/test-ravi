@@ -1,0 +1,47 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "firstName",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "EMail",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ZIP11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "principalID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "accountType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "primaryAddressIndicator",
+    "type": "BOOL"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "addressActive",
+    "type": "BOOL"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "lastLogin",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "time_stamp",
+    "type": "TIMESTAMP"
+  }
+]

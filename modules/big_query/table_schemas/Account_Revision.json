@@ -1,0 +1,87 @@
+[
+  {
+    "name": "account_type_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "account_type_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "banner_opt_out_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "banner_opt_out_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "banner_start_date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "is_active_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "is_active_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_address_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_address_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "first_name_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "first_name_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name":  "principal_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name":  "account_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name":  "unsubscribe_token",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name":  "time_stamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "esof_preferred_location_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "esof_preferred_location_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

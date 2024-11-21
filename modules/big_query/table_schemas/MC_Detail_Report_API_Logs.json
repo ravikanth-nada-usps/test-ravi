@@ -1,0 +1,32 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "CAMPAIGN_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SUBMITTER_CRID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "STATUS",
+    "type": "STRING"
+  },
+    {
+    "mode": "NULLABLE",
+    "name": "START_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "END_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TIME_STAMP",
+    "type": "TIMESTAMP"
+  }
+]

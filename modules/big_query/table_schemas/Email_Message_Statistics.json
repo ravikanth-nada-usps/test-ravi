@@ -1,0 +1,18 @@
+[
+  {
+    "name": "ZIP11",
+    "type": "STRING"
+  },
+  {
+    "name": "Delivery_Date",
+    "type": "DATE"
+  },
+  {
+    "name": "Email_Address",
+    "type": "STRING"
+  },
+  {
+    "name": "TIME_STAMP",
+    "type": "TIMESTAMP"
+  }
+]

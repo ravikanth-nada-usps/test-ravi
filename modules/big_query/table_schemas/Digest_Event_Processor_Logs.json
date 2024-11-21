@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "RECORD_TYPE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "MAILPIECE_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "IMB",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "EMAIL_TOKEN",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "STATUS",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "START_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "END_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TIME_STAMP",
+    "type": "DATETIME"
+  }
+]

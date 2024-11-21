@@ -1,0 +1,22 @@
+[
+  {
+    "name": "principalID",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "zip11",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "optOutReason",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "optOutTime",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+]

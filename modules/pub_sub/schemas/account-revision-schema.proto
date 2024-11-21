@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+message AccountRevision {
+  string account_type_old = 1;
+  string account_type_new = 2;
+  string banner_opt_out_old = 3;
+  string banner_opt_out_new = 4;
+  string banner_start_date = 5;
+  string is_active_old = 6;
+  string is_active_new = 7;
+  string email_address_old = 8;
+  string email_address_new = 9;
+  string first_name_old = 10;
+  string first_name_new = 11;
+  string principal_id = 12;
+  string account_id = 13;
+  string unsubscribe_token = 14;
+  string time_stamp = 15;
+  optional string esof_preferred_location_old = 16;
+  optional string esof_preferred_location_new = 17;
+}

@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+message ProtocolBuffer {
+  string principal_id = 1;
+  string time_stamp = 2;
+  string zip11_old = 3;
+  string zip11_new = 4;
+  string coa_pending_old = 5;
+  string coa_pending_new = 6;
+  string dn_opt_in_old = 7;
+  string dn_opt_in_new = 8;
+  string digest_opt_in_old = 9;
+  string digest_opt_in_new = 10;
+  string is_active_old = 11;
+  string is_active_new = 12;
+  string package_email_old = 13;
+  string package_email_new = 14;
+  string package_number_old = 15;
+  string package_number_new = 16;
+  string email_afp_enabled_old = 17;
+  string email_afp_enabled_new = 18;
+  string email_ddu_enabled_old = 19;
+  string email_ddu_enabled_new = 20;
+  string email_deu_enabled_old = 21;
+  string email_deu_enabled_new = 22;
+  string email_edu_enabled_old = 23;
+  string email_edu_enabled_new = 24;
+  string email_pd_enabled_old = 25;
+  string email_pd_enabled_new = 26;
+  string email_pit_enabled_old = 27;
+  string email_pit_enabled_new = 28;
+  string sms_afp_enabled_old = 29;
+  string sms_afp_enabled_new = 30;
+  string sms_ddu_enabled_old = 31;
+  string sms_ddu_enabled_new = 32;
+  string sms_deu_enabled_old = 33;
+  string sms_deu_enabled_new = 34;
+  string sms_edu_enabled_old = 35;
+  string sms_edu_enabled_new = 36;
+  string sms_pd_enabled_old = 37;
+  string sms_pd_enabled_new = 38;
+  string sms_pit_enabled_old = 39;
+  string sms_pit_enabled_new = 40;
+  string physical_address_id = 41;
+  string primary_address_ind = 42;
+}

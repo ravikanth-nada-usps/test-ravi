@@ -1,0 +1,70 @@
+[
+  {
+    "name": "MICS_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "ADMIN_EMAIL",
+    "type": "STRING"
+  },
+  {
+    "name": "EXCEPTION_EMAIL",
+    "type": "STRING"
+  },
+  {
+    "name": "IS_ACTIVE",
+    "type": "INTEGER"
+  },
+  {
+    "name": "MICS_CODE",
+    "type": "STRING"
+  },
+  {
+    "name": "MICS_HOST",
+    "type": "STRING"
+  },
+  {
+    "name": "MICS_NAME",
+    "type": "STRING"
+  },
+  {
+    "name": "MICS_PORT",
+    "type": "INTEGER"
+  },
+  {
+    "name": "MICS_TOKEN",
+    "type": "STRING"
+  },
+  {
+    "name": "USERNAME",
+    "type": "STRING"
+  },
+  {
+    "name": "PROTOCOL_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "MICS_ZIP_PW",
+    "type": "STRING"
+  },
+  {
+    "name": "PROCESSING_END_TIME",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "SUBSCRIBER_SEND_TIME",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "TIMEZONE",
+    "type": "STRING"
+  },
+  {
+    "name": "PROCESSING_START_TIME",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "WEBEOR_SITE_ID",
+    "type": "STRING"
+  }
+]

@@ -1,0 +1,23 @@
+syntax = "proto3";
+message ProtocolBuffer {
+  string uri = 1;
+  optional string endpoint = 2;
+  int32 statusCode = 3;
+  int32 latency = 4;
+  optional string zip11 = 5;
+  optional string deliveryDate = 6;
+  optional string source = 7;
+  optional string principalId = 8;
+  int32 mailCampaigns = 9;
+  int32 packageCampaigns = 10;
+  int32 mailCount = 11;
+  int32 saturationCount = 12;
+  int32 inboundCount = 13;
+  int32 outboundCount = 14;
+  optional string errorMessage = 15;
+  string timestamp = 16;
+
+  // added for cp updates
+  optional int32 addedPackageCampaigns = 17;
+  optional int32 addedPackageCount = 18;
+}

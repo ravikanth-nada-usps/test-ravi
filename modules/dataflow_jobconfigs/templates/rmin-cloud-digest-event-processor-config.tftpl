@@ -1,0 +1,21 @@
+{
+  "digestEventSubscription": "projects/${project_id}/subscriptions/rmin-digest-event-subscription-c-${name_suffix}",
+  "digestEventTopic": "projects/${project_id}/topics/rmin-digest-event-topic-c-${name_suffix}",
+  "errorTopic": "projects/${project_id}/topics/rmin-errors-e-${name_suffix}",
+  "mailCampaignReportingTopic": "projects/${project_id}/topics/rmin-mail-campaign-reporting-topic-c-${name_suffix}",
+  "digestEventProcessorLogsTable": "${project_id}.rmin_operationaldata_bigquery_e_${name_suffix}.Digest_Event_Processor_Logs",
+  "bigqueryDataset": "rmin_operationaldata_bigquery_e_${name_suffix}",
+  "cloudSQLDigestHost": "${digest_db_host_ip}",
+  "cloudSQLDigestHostFullConnectionName": "${project_id}:us-central1:idc-${environment}-rmin-digest",
+  "cloudSQLDigestPort": "5432",
+  "cloudSQLDigestDbName": "rmin_digest_db",
+  "cloudSQLDigestDbUserName": "${db_user}",
+  "clickTrackCloudSQLTable": "rmin_user.click_tracking",
+  "emailReadCloudSQLTable": "rmin_user.email_read",
+  "emailCloudSQLTable": "rmin_user.email",
+  "mailpieceEmailCloudSQLTable": "rmin_user.mailpiece_email",
+  "apiUrl": "${apiUrl}",
+  "digestSecretKeyName": "rmin-digest-${db_user}-key",
+  "digestSecretProjectId": "${project_num}",
+  "digestSecretVersionNumber": "${digest_db_user_secret_ver_num}"
+}

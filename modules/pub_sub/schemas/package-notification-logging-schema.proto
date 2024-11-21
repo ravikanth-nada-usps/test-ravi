@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+message ProtocolBuffer {
+  string principal_id = 1;
+  string zip11 = 2;
+  string package_email = 3;
+  string package_number = 4;
+  string email_afp_enabled = 5;
+  string email_ddu_enabled = 6;
+  string email_deu_enabled = 7;
+  string email_edu_enabled = 8;
+  string email_pd_enabled = 9;
+  string email_pit_enabled = 10;
+  string sms_afp_enabled = 11;
+  string sms_ddu_enabled = 12;
+  string sms_deu_enabled = 13;
+  string sms_edu_enabled = 14;
+  string sms_pd_enabled = 15;
+  string sms_pit_enabled = 16;
+  string mp_date = 17;
+  string mp_suffix = 18;
+  string ptr_status_code = 19;
+  string ptr_endpoint = 20;
+  string ems_status_code = 21;
+  string ems_endpoint = 22;
+  string time_stamp = 23;
+  int32 latency = 24;
+  optional string error_message = 25;
+  string impb = 26;
+  string origin_source = 27;
+  string short_code = 28;
+  optional string sms_error_message = 29;
+  optional string email_error_message = 30;
+}

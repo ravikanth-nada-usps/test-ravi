@@ -1,0 +1,129 @@
+1. Upload zip file to cloud shell and unzip file 
+
+2. Enable all APIs (Only needed for inital Update)
+
+gcloud services enable cloudtrace.googleapis.com 
+gcloud services enable eventarc.googleapis.com 
+gcloud services enable cloudresourcemanager.googleapis.com
+gcloud services enable servicenetworking.googleapis.com
+gcloud services enable vpcaccess.googleapis.com
+gcloud services enable sql-component.googleapis.com
+gcloud services enable sqladmin.googleapis.com
+gcloud services enable run.googleapis.com
+gcloud services enable iap.googleapis.com
+gcloud services enable bigquery.googleapis.com
+gcloud services enable bigqueryconnection.googleapis.com 
+gcloud services enable pubsub.googleapis.com
+gcloud services enable cloudscheduler.googleapis.com
+gcloud services enable storage-component.googleapis.com
+gcloud services enable cloudtasks.googleapis.com
+gcloud services enable monitoring.googleapis.com
+gcloud services enable storage.googleapis.com
+gcloud services enable iap.googleapis.com
+gcloud services enable redis.googleapis.com
+gcloud services enable secretmanager.googleapis.com
+
+gcloud services enable firestore.googleapis.com
+gcloud services enable firebaserules.googleapis.com
+gcloud services enable firebase.googleapis.com
+gcloud services enable eventarc.googleapis.com
+gcloud services enable dataform.googleapis.com
+gcloud services enable dataflow.googleapis.com
+gcloud services enable containeranalysis.googleapis.com
+gcloud services enable container.googleapis.com
+gcloud services enable compute.googleapis.com
+gcloud services enable compute.googleapis.com
+gcloud services enable cloudfunctions.googleapis.com
+gcloud services enable serviceusage.googleapis.com
+3. run the following command 
+
+chmod 755 -R rmin-cloud-terraform-scripts*
+
+4. move to directory 
+cd rmin-cloud-terraform-scripts-*/helpers/
+
+
+5. Run the following commands to Update State File 
+export TF_CLI_ARGS_plan="$TF_CLI_ARGS_plan -compact-warnings"
+export TF_CLI_ARGS_apply="$TF_CLI_ARGS_apply -compact-warnings"
+export TF_CLI_ARGS_import="$TF_CLI_ARGS_import -compact-warnings"
+./execute_remove_bq_dashboard_state_file.sh
+./execute_remove_state_file.sh cloud_function
+./execute_remove_cloud_run_state_file.sh
+./execute_remove_state_file.sh connectors
+#./execute_remove_state_file.sh memstore
+./execute_remove_state_file.sh memstore.google_redis_instance.rmin-
+./execute_remove_pubsub_state_file.sh
+./execute_remove_state_file.sh subnetwork
+./execute_remove_state_file.sh cloud_storage.google_storage_bucket.rmin-
+./execute_remove_state_file.sh cloud_storage.google_storage_notification.rmin-
+# Type Y when prompted to delete schedule
+./delete_cloud_schedulers.sh 
+
+
+6. Run the following commands to import exisiting infastructure into terraform 
+
+export TF_CLI_ARGS_plan="$TF_CLI_ARGS_plan -compact-warnings"
+export TF_CLI_ARGS_apply="$TF_CLI_ARGS_apply -compact-warnings"
+export TF_CLI_ARGS_import="$TF_CLI_ARGS_import -compact-warnings"
+python terraform_import_cloud_nat.py
+python terraform_import_vpc.py
+python terraform_import_subnetwork.py
+python terraform_import_connectors.py
+python terraform_import_cloud_storage.py
+python terraform_import_pubsub.py
+python terraform_import_bigquery.py
+python terraform_import_memstore.py
+python terraform_import_cloud_function.py
+python terraform_import_cloudsql_digest.py
+python terraform_import_cloudsql_mdn.py
+python terraform_import_cloud_run.py
+
+7. Remove Bigquery table 
+
+bq rm \
+-f \
+-t \
+uspscio-idc-9060-01s:rmin_operationaldata_bigquery_e_001s.ZIP5_TIMEZONE
+
+8. Run the following command
+
+./execute_plan.sh 
+
+9. If no errors, run the following command
+
+./execute_apply.sh 
+
+
+10. Update Partman Functions
+
+./update_cloudrun_partman_mdn.sh
+./update_cloudrun_partman_digest.sh
+
+
+11. Delete Old Terraform State Files 
+Example given below 
+Run the following commands in Cloud Shell to remove files for each project listed above. 
+
+uspscio-it-idc-9060-00c
+gcloud config set project uspscio-it-idc-9060-00c
+gsutil rm gs://uspscio-it-idc-9060-00c-tfstate/env/cat/default.tfstate 
+gsutil rm gs://uspscio-it-idc-9060-00c-tfstate/env/uscentral/default.tfstate
+
+uspscio-it-idc-9060-01c
+gcloud config set project uspscio-it-idc-9060-01c
+gsutil rm gs://uspscio-it-idc-9060-01c-tfstate/env/cat2/default.tfstate 
+
+
+
+****** REDIS UPDATE 
+./execute_remove_state_file.sh memstore.google_redis_instance.rmin-
+python terraform_import_vpc.py
+python terraform_import_memstore.py
+./execute_plan_target_module.sh module.memstore
+
+./execute_plan_target_module.sh module.cloud_function
+
+./execute_plan_target_module.sh module.cloud_function
+
+./execute_plan_target_module.sh module.memstore.google_redis_instance.rmin_flats_lock_cache_c

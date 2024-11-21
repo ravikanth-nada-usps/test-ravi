@@ -1,0 +1,112 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "DataType",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "EmailToken",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "EmailAddress",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DeliveryDate",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Zip11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "AccountID",
+    "type": "INTEGER"
+  },
+  {
+    "description": "The time the email message is published to the Email Send Pub/Sub topic",
+    "mode": "NULLABLE",
+    "name": "EmailSentTime",
+    "type": "DATETIME"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "CampaignID",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "IMB",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ImagePosition",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "imageDisplayId",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "PieceType",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "CampaignType",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "MailpieceId",
+        "type": "STRING"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "Pieces",
+    "type": "RECORD"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "CampaignID",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "PackagePosition",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "IMPB",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "DeliveryDate",
+        "type": "DATE"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "Packages",
+    "type": "RECORD"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PhysicalAddressID",
+    "type": "INTEGER"
+  }
+]

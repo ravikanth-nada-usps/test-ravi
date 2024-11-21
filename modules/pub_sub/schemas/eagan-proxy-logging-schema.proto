@@ -1,0 +1,8 @@
+syntax = "proto3";
+message ProtocolBuffer {
+  string uri = 1;
+  string method = 2;
+  int32 statusCode = 3;
+  int32 latency = 4;
+  string timestamp = 5;
+}

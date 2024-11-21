@@ -1,0 +1,212 @@
+[
+  {
+    "name": "principal_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "time_stamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "zip11_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "zip11_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "coa_pending_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "coa_pending_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dn_opt_in_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dn_opt_in_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "digest_opt_in_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "digest_opt_in_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "is_active_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "is_active_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "package_email_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "package_email_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "package_number_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "package_number_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_afp_enabled_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_afp_enabled_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_ddu_enabled_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_ddu_enabled_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_deu_enabled_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_deu_enabled_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_edu_enabled_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_edu_enabled_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_pd_enabled_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_pd_enabled_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_pit_enabled_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_pit_enabled_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_afp_enabled_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_afp_enabled_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_ddu_enabled_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_ddu_enabled_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_deu_enabled_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_deu_enabled_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_edu_enabled_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_edu_enabled_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_pd_enabled_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_pd_enabled_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_pit_enabled_old",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_pit_enabled_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "physical_address_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "primary_address_ind",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

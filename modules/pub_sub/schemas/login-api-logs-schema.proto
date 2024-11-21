@@ -1,0 +1,12 @@
+syntax = "proto3";
+message ProtocolBuffer {
+  string firstName = 1;
+  string EMail = 2;
+  string ZIP11 = 3;
+  string principalID = 4;
+  string accountType = 5;
+  bool primaryAddressIndicator = 6;
+  bool addressActive = 7;
+  string lastLogin = 8;
+  string time_stamp = 9;
+}

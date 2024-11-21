@@ -1,0 +1,67 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "UNIQUE_CODE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ZIP11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DELIVERY_DATE",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TIME_STAMP",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SERIAL_NUMBER",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "IMAGE_HEIGHT",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "IMAGE_WIDTH",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "IMAGE_PATH",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "MAILER_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TRACKING_CODE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TRACKING_CODE1",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "IMB",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PIECE_TYPE",
+    "type": "STRING"
+  }
+]

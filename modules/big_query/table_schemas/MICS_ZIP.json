@@ -1,0 +1,10 @@
+[
+  {
+    "name": "MICS_ID",
+    "type": "INTEGER"
+  },
+  {
+    "name": "ZIP5",
+    "type": "STRING"
+  }
+]

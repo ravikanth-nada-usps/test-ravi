@@ -1,0 +1,52 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "ZIP11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "MAILPIECE_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DELIVERY_DATE",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PIECE_TYPE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CAMPAIGN_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "RECORD_TYPE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "STATUS",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "START_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "END_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TIME_STAMP",
+    "type": "DATETIME"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "email_token",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "delivery_date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "read_time",
+    "type": "TIMESTAMP"
+  }
+]

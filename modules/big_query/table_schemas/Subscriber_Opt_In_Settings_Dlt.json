@@ -1,0 +1,27 @@
+[
+  {
+    "name": "physical_address_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "zip11_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dn_opt_in_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "digest_opt_in_new",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "time_stamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  }
+]

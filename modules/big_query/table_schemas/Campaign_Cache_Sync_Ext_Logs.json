@@ -1,0 +1,42 @@
+[
+  {
+    "name": "STATUS",
+    "type": "STRING"
+  },
+  {
+    "name": "CAMPAIGN_ID",
+    "type": "STRING"
+  },
+  {
+    "name": "CAMPAIGN_TYPE",
+    "type": "STRING"
+  },
+  {
+    "name": "MAILER_ID",
+    "type": "STRING"
+  },
+  {
+    "name": "BARCODE",
+    "type": "STRING"
+  },
+  {
+    "name": "ACTION",
+    "type": "STRING"
+  },
+  {
+    "name": "ZIP_FILENAME",
+    "type": "STRING"
+  },
+  {
+    "name": "IMAGES_PROCESSED",
+    "type": "STRING"
+  },
+  {
+    "name": "START_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "name": "END_TIME",
+    "type": "DATETIME"
+  }
+]

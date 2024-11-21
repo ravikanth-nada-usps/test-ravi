@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "httpsUrl": "https://informeddelivery.usps.com",
+  "fromEmail":"USPSInformeddelivery@email.informeddelivery.usps.com",
+  "fromEmailId":"USPS Informed Delivery",
+  "subjectPrefix":"Your Mail Was Delivered",
+  "mailDeliveredLink": "/tracking/MdnSurveyTrack?deliveryDate=%s&physicalAddrId=%s&source=MAIL_DELIVERED_SUR_LINK&token=%s",
+  "mailNotDeliveredLink": "/tracking/MdnSurveyTrack?deliveryDate=%s&physicalAddrId=%s&source=MAIL_NOTDELIVERED_SUR_LINK&token=%s",
+  "afterDeliveryLink": "/tracking/MdnSurveyTrack?deliveryDate=%s&physicalAddrId=%s&source=AFTERDELIVERY_SUR_LINK&token=%s",
+  "timestampTable": "ZIP5_TIMEZONE",
+  "jedisPoolMaxIdle": 25,
+  "jedisPoolMinIdle": 12,
+  "jedisLockEnabled": true,
+  "redisMDNZip11Cache": "10.100.1.108",
+  "cacheLockTimeout": 12,
+  "errorLoggingEnabled": true,
+  "apiUrl": "https://rmin-cloud-dashboard-api-internal-hiirpvcpta-uc.a.run.app",
+  "fireStoreToggleEnabled": true,
+  "maxBackoffRetries": 5,
+  "initialBackoffSeconds": 5,
+  "backoffExponent": 2.0,
+  "timeZoneUTCToggleEnabled": true
+}

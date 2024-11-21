@@ -1,0 +1,57 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "ZIP11",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PIECE_TYPE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DELIVERY_DATE",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "MAILER_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SERIAL_NUMBER",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "IMB",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "SCAN_DATETIME",
+    "type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "OPERATION_CODE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "PREDICTED_DELIVERY_DATE",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ANTICIPATED_DELIVERY_DATE",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "TIME_STAMP",
+    "type": "TIMESTAMP"
+  }
+]

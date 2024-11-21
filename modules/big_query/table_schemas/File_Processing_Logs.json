@@ -1,0 +1,38 @@
+[
+  {
+    "name": "STATUS",
+    "type": "STRING"
+  },
+  {
+    "name": "ZIP_FILENAME",
+    "type": "STRING"
+  },
+  {
+    "name": "START_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "name": "END_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "name": "TIME_STAMP",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "IS_DONE_FILE",
+    "type": "BOOLEAN"
+  },
+  {
+    "name": "MAILPIECE_COUNT",
+    "type": "INTEGER"
+  },
+  {
+    "name": "DELIVERY_DATE",
+    "type": "DATE"
+  },
+  {
+    "name": "PROCESS_IND",
+    "type": "STRING"
+  }
+]

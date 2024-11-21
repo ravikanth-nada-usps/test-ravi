@@ -1,0 +1,152 @@
+[
+  {
+    "name": "principal_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "zip11",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "package_email",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "package_number",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_afp_enabled",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_ddu_enabled",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_deu_enabled",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_edu_enabled",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_pd_enabled",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_pit_enabled",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_afp_enabled",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_ddu_enabled",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_deu_enabled",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_edu_enabled",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_pd_enabled",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_pit_enabled",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "mp_date",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "mp_suffix",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ptr_status_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ptr_endpoint",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ems_status_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ems_endpoint",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "time_stamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "latency",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "error_message",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "impb",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "origin_source",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "short_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sms_error_message",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "email_error_message",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

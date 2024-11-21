@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SATURATION_JOB_ID",
+    "type": "STRING"
+  },
+  {
+    "name": "NUM_99M_BARCODES_ADDED",
+    "type": "INTEGER"
+  },
+  {
+    "name": "STATUS",
+    "type": "STRING"
+  },
+  {
+    "name": "START_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "name": "END_TIME",
+    "type": "DATETIME"
+  },
+  {
+    "name": "TIME_STAMP",
+    "type": "DATETIME"
+  }
+]
